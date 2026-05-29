@@ -1,0 +1,22 @@
+name = "idkaboutbytes/spring"
+version = "1.0.0"
+description = "Spring package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/spring"
+includes = ["pesde.toml", "README.md", "CHANGELOG.md", "default.project.json", "src/**/*.luau"]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[dependencies]
+Loader = { repo = "idkaboutbytes/loader", rev = "v1.2.1" }
+Client = { repo = "idkaboutbytes/client", rev = "v1.0.0" }
+DuckTypeUtils = { repo = "idkaboutbytes/ducktypeutils", rev = "v1.0.1" }
+Maid = { repo = "idkaboutbytes/maid", rev = "v1.1.0" }
+Promise = { repo = "idkaboutbytes/promise", rev = "v2.1.1" }
+Rx = { repo = "idkaboutbytes/rx", rev = "v1.0.1" }
+SpringUtils = { repo = "idkaboutbytes/springutils", rev = "v1.0.0" }
+StepUtils = { repo = "idkaboutbytes/steputils", rev = "v1.0.0" }
